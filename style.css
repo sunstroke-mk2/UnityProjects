@@ -1,0 +1,126 @@
+body
+{
+ background-image:url(" https://media.discordapp.net/attachments/800379948770263080/1165682957919473826/bckgr.png?ex=6547bdda&is=653548da&hm=4b955eb448b66cd65820a85ac700f16393fe055939817d6f5e78f1c63902b7cd&=&width=640&height=640");
+}
+.projectR {
+  display: flex; /* or inline-flex */
+  flex-direction: row ;
+  flex-wrap: nowrap;
+  justify-content: space-evenly ;
+  
+  max-width:90%;
+  max-height:680px;
+  margin:20px auto;
+  overflow:hidden;
+  padding :15px;
+ /*background:#6ea4fa;*/
+  background-image:url("https://media.discordapp.net/attachments/800379948770263080/1165665619602067526/contrainerbackground.png?ex=6547adb4&is=653538b4&hm=b4a09290bfee497b55ce0c7b757c9e4c7d9eadb2dba7b7b9d66a58f674b7a192&=&width=640&height=640");
+  background-size:contain; 
+}
+.description
+{
+  margin: auto;
+  background:yellow;
+  width:30%;
+  max-height:77%;
+  padding:25px;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-height:750px;
+  min-height:300px;
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+	top: -100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  top:50px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
